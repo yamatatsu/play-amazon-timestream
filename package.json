@@ -1,15 +1,16 @@
 {
-  "name": "play-amazon-timestream",
-  "version": "0.1.0",
-  "scripts": {},
-  "devDependencies": {
-    "@types/node": "20.11.14",
-    "aws-cdk": "2.126.0",
-    "ts-node": "^10.9.2",
-    "typescript": "~5.3.3"
-  },
-  "dependencies": {
-    "aws-cdk-lib": "2.126.0",
-    "constructs": "^10.0.0"
-  }
+	"name": "play-amazon-timestream",
+	"version": "0.1.0",
+	"scripts": {},
+	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
+		"@types/node": "20.11.14",
+		"aws-cdk": "2.126.0",
+		"ts-node": "^10.9.2",
+		"typescript": "~5.3.3"
+	},
+	"dependencies": {
+		"aws-cdk-lib": "2.126.0",
+		"constructs": "^10.0.0"
+	}
 }
