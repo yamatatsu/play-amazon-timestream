@@ -1,7 +1,10 @@
 {
 	"name": "play-amazon-timestream",
 	"version": "0.1.0",
-	"scripts": {},
+	"scripts": {
+		"write": "ts-node src/write.ts",
+		"query": "ts-node src/query.ts"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.5.3",
 		"@types/node": "20.11.14",
@@ -10,6 +13,8 @@
 		"typescript": "~5.3.3"
 	},
 	"dependencies": {
+		"@aws-sdk/client-timestream-query": "^3.504.0",
+		"@aws-sdk/client-timestream-write": "^3.504.0",
 		"aws-cdk-lib": "2.126.0",
 		"constructs": "^10.0.0"
 	}
